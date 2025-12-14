@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Rose Valley Public School</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
 
@@ -12,35 +15,24 @@
     <p>🎉 Admissions Open for Session 2026–27 | Free Admission Open for 2025 🎉</p>
 </div>
 
-<header>
-    <img src="logo.jpeg" alt="School Logo" class="logo">
-    <h1>ROSE VALLEY PUBLIC SCHOOL</h1>
-    <p>Narayanpur Dedhpura, Mahnar, Vaishali (Bihar) - 844505</p>
+<!-- Header -->
+<header class="top-header">
+    <div class="header-left">
+        <img src="logo.jpg" alt="School Logo" class="logo">
+    </div>
+
+    <div class="header-right">
+        <h1>ROSE VALLEY PUBLIC SCHOOL</h1>
+        <p class="tagline">Admissions Open for Session 2026–27</p>
+    </div>
 </header>
 
-<section class="info">
-    <h2>School Information</h2>
-    <p><strong>Village:</strong> Narayanpur Dedhpura</p>
-    <p><strong>State:</strong> Bihar</p>
-    <p><strong>Pincode:</strong> 844505</p>
-</section>
-
-<section class="contact">
-    <h2>Contact Details</h2>
-    <p>📞 Mobile: +91 7903732945</p>
-    <p>💬 WhatsApp: +91 7903732945</p>
-    <p>📧 Email: iihravi@gmail.com</p>
-</section>
-
-<section class="enquiry">
-    <h2>Admission Enquiry Form</h2>
+<!-- Admission Enquiry Form (UPAR) -->
+<section class="enquiry top-form">
+    <h2>Admission Enquiry</h2>
 
     <form action="https://formsubmit.co/iihravi@gmail.com" method="POST">
-
-        <!-- Custom Success Page -->
         <input type="hidden" name="_next" value="https://avhi1231.github.io/School-Website/thankyou.html">
-
-        <!-- Disable FormSubmit Logo -->
         <input type="hidden" name="_template" value="table">
 
         <input type="text" name="Student Name" placeholder="Student Name" required>
@@ -53,8 +45,19 @@
     </form>
 </section>
 
+<!-- School Details (NICHE) -->
+<section class="info">
+    <h2>School Information</h2>
+    <p><strong>Address:</strong> Narayanpur Dedhpura, Mahnar, Vaishali (Bihar) - 844505</p>
+    <p><strong>Village:</strong> Narayanpur Dedhpura</p>
+    <p><strong>State:</strong> Bihar</p>
+    <p><strong>Pincode:</strong> 844505</p>
+    <p><strong>Mobile / WhatsApp:</strong> +91 7903732945</p>
+    <p><strong>Email:</strong> iihravi@gmail.com</p>
+</section>
+
 <!-- WhatsApp Button -->
-<a class="whatsapp" 
+<a class="whatsapp"
    href="https://wa.me/917903732945?text=Hello%20I%20want%20admission%20details">
    💬 Chat on WhatsApp
 </a>
