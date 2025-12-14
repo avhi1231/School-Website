@@ -22,37 +22,58 @@ body {
     to { transform: translateX(-100%); }
 }
 
-header {
-    text-align: center;
+/* Header */
+.top-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
     background: #005bbb;
     color: white;
-    padding: 20px;
+}
+
+.header-left {
+    flex: 0 0 120px;
 }
 
 .logo {
     width: 100px;
-    margin-bottom: 10px;
+    height: auto;
 }
 
-section {
+.header-right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.header-right h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Form Section */
+.top-form {
+    margin: 15px;
+    background: #ffffff;
+    border: 2px solid #005bbb;
     padding: 20px;
-    margin: 10px;
-    background: white;
     border-radius: 6px;
 }
 
-.enquiry form {
-    max-width: 400px;
-    margin: auto;
-}
-
-input, textarea {
+.enquiry form input,
+.enquiry form textarea {
     width: 100%;
     padding: 10px;
     margin: 8px 0;
 }
 
-button {
+.enquiry form button {
     background: #005bbb;
     color: white;
     border: none;
@@ -60,8 +81,18 @@ button {
     width: 100%;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 4px;
 }
 
+/* Info Section */
+.info {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 6px;
+}
+
+/* WhatsApp */
 .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -73,6 +104,7 @@ button {
     text-decoration: none;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
